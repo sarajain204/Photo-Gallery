@@ -1,0 +1,55 @@
+body{
+    text-align: center;
+    background-color:chartreuse;
+}
+h1{
+    font-size: 40px;
+    font-family: monospace;
+    font-weight: 700;
+}
+.line{
+    width: 70px;
+   height: 6px;
+    background-color: darkolivegreen;
+    margin: 8px auto;
+}
+#myCarousel{
+    background-color: darkslategray;
+}
+#myCarousel img{
+    height: 300px;
+    margin-top: 35px;
+}
+.carousel-inner p{
+    margin-bottom: 15px;
+    margin-top: 15px;
+    color: white;
+    font-size: 20px;   
+}
+img{
+    width: 350px;
+    height: 350px;
+}
+#home img{
+    width: 100% ;
+    height: 100% ;
+}
+.menu{
+    position: fixed;
+    background-color:chartreuse;
+    width: 100%;
+    margin-top: 0px;
+    top: 0px;
+    z-index: 10;
+}
+.link{
+display: inline;
+    padding-left: 33px;
+    padding-right: 25px;
+    font-family: sans-serif;
+    font-size: 20px;
+}
+.link:hover{
+    font-size: 25px;
+    text-decoration: underline
+}
